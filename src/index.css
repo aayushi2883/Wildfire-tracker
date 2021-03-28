@@ -1,0 +1,57 @@
+body {
+margin: 0;
+font-family: Arial;
+}
+
+.map{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.location-icon{
+  font-size: 2rem;;
+  color: red;
+}
+
+.location-info{
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  width: 340px;
+  min-height: 170px;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.location-info li{
+  padding: 5px 0;
+
+}
+
+.location-info ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.header{
+  padding: 10px;
+  background-color: firebrick;
+  color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed ;
+  z-index: 100;
+}
+
+.header h1{
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+}
